@@ -1,5 +1,12 @@
+# ─────────────────────────────────────────────
+# SymbolicCore.jl – Punto de entrada del módulo
+# ─────────────────────────────────────────────
+
 module SymbolicCore
 
-# Write your package code here.
+export AbstractSymbolic, Constant, Variable, BinaryOp
 
-end
+include("types.jl")
+include("show.jl")
+
+end # MOD
