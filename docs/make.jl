@@ -1,3 +1,5 @@
+ENV["JULIA_LOG_LEVEL"] = "Warn"
+
 using SymbolicCore
 using Documenter
 
@@ -13,6 +15,7 @@ makedocs(;
         assets=String[],
     ),
     pages=["Home" => "index.md"],
+    checkdocs=:export,
 )
 
 deploydocs(; repo="github.com/Cglezf/SymbolicCore.jl", devbranch="main")
