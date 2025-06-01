@@ -1,3 +1,5 @@
+# make.jl
+
 ENV["JULIA_LOG_LEVEL"] = "Warn"
 
 using SymbolicCore

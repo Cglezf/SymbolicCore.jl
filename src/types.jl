@@ -1,6 +1,4 @@
-# ─────────────────────────────────────────────
 # types.jl – Definición de tipos simbólicos base
-# ─────────────────────────────────────────────
 
 """
     AbstractSymbolic

@@ -1,6 +1,4 @@
-# ─────────────────────────────────────────────
 # evaluate.jl – Evaluación numérica de expresiones simbólicas
-# ─────────────────────────────────────────────
 
 """
     evaluate(expr::Constant, env::Dict)

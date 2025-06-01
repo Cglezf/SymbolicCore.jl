@@ -1,6 +1,4 @@
-# ─────────────────────────────────────────────
 # show.jl – Impresión simbólica de expresiones
-# ─────────────────────────────────────────────
 
 import Base: show
 
